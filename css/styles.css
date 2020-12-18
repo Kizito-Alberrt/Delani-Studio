@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+li a {
+    text-emphasis: bold;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 30px;
+    font-family: Lucida Console Courier, monospace;
+    display: block;
+    margin: 2%;
+    
+}
+a:hover{
+    color: black;
+}
+.nav ul li a:hover{
+    color: black;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img\ 1.jpg"); width: 1300px; height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+padding: 10%;
+font-size: 50px;
+font-family: Lucida Console Courier, monospace;
+}
+
+.about{
+    text-align: center;
+}
+.service{
+    background-image: url("../img\ 2.jpg"); width: 1300px; height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
