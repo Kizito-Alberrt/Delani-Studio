@@ -38,10 +38,33 @@ font-family: Lucida Console Courier, monospace;
 
 .about{
     text-align: center;
+    font-family: Lucida Console Courier, monospace;
 }
 .service{
-    background-image: url("../img\ 2.jpg"); width: 1300px; height: 700px;
+    background-image: url("../img\ 3.jpg"); width: 1300px; height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+}
+
+.svc{
+    font-family: Lucida Console Courier, monospace;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nrt{
+    color: aliceblue;
+    font-family: Lucida Console Courier, monospace;
+}
+
+.card{
+    font-family: Lucida Console Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+.icon{
+    padding: 5%;
 }
