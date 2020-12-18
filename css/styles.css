@@ -69,6 +69,11 @@ font-family: Lucida Console Courier, monospace;
     padding: 5%;
     display: flex;
 }
+
+.icon-1{
+    padding-left: 0%;
+    
+}
 .icon-2{
     padding-left: 25%;
 }
@@ -95,4 +100,57 @@ font-family: Lucida Console Courier, monospace;
     color: rgb(177, 43, 2);
     text-align: center;
     margin: 5%;
+}
+.container{
+    width: 1280px;
+    min-height: 50px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: gray;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.container .box .imgbox{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgbox{
+    max-width: 300px;
+    transition: transform 2s ;
+}
+.container .box:hover .imgbox{
+transform: scale(1.2);
+}
+.container .box .details{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    bottom: 150px;
+    right: 150px;
+    background-color: white;
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.container .box:hover .details{
+    transform: scaleY(1.2);
+}
+.container .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    padding: 15%;
+    color: rgba(26, 25, 25, 0.897);
+    background: white;
+    
 }
