@@ -17,6 +17,13 @@ li a {
     margin: 2%;
     
 }
+.header .menue p{
+    color: rgb(15, 2, 2);
+    font-family: Lucida Console Courier, monospace;
+    padding: 15px;
+    font-size: 30px;
+    
+}
 a:hover{
     color: black;
 }
@@ -34,6 +41,7 @@ h1{
 padding: 10%;
 font-size: 50px;
 font-family: Lucida Console Courier, monospace;
+
 }
 
 .about{
@@ -157,7 +165,7 @@ transform: scale(0.9);
 
 .container .details .content h2{
     font-family: Lucida Console Courier, monospace;
-    color: aliceblue;
+    color: rgb(18, 18, 19);
 }
 
 .container .details .content p{
