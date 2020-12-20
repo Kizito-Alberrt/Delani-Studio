@@ -129,11 +129,11 @@ font-family: Lucida Console Courier, monospace;
     transition: transform 2s ;
 }
 .container .box:hover .imgbox{
-transform: scale(1.2);
+transform: scale(0.9);
 }
 .container .box .details{
     position: absolute;
-    top: 50px;
+    top: 10px;
     left: 150px;
     bottom: 150px;
     right: 150px;
@@ -154,3 +154,83 @@ transform: scale(1.2);
     background: white;
     
 }
+
+.container .details .content h2{
+    font-family: Lucida Console Courier, monospace;
+    color: aliceblue;
+}
+
+.container .details .content p{
+    font-family: Lucida Console Courier, monospace;
+}
+
+.contactform{
+    border-bottom: rgb(166, 233, 10);
+    margin-left: 7%;
+    width: 50%;
+    padding: 50px;
+    background: rgba(24, 18, 18, 0.705);
+    margin-right: -60%;
+    margin-bottom: 5%;
+}
+.contactform{
+    font-weight: 50;
+    font-size: 25px;
+}
+.contactform .inputbox{
+    margin-top: 0px;
+    color: rgb(233, 225, 225);
+}
+.contactform .inputbox input{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 2px solid;
+    font-size: 15px;
+    outline: none;
+    transition: 0.5s;
+    font-style:Lucida Console Courier, monospace;
+}
+.heading-1 h1{
+    font-style:Lucida Console Courier, monospace; 
+}
+
+.contactform{
+    background-image: url("../img 21.jpg");width: 1200px; height: 900px;
+    background-size: cover;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 70%;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-right: -50px;
+    padding-left: 300px;
+    border-radius: 50%;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  .fa-facebook {
+    background: white;
+    color: rgb(7, 30, 233);
+  }
+  
+  
+  .fa-twitter {
+    background: white;
+    color: rgb(34, 12, 226);
+    size: 100%;
+  }
+
+  .fa-instagram{
+    background: white;
+    color: rgb(34, 12, 226);
+    size: 100%;
+  }
