@@ -77,6 +77,27 @@ font-family: Lucida Console Courier, monospace;
     padding: 5%;
     display: flex;
 }
+.pr{
+    display: none;
+    text-align: center;
+    background-color: rgb(110, 83, 9);
+    color: white;
+    font-family: Lucida Console Courier, monospace;
+}
+.pr-2{
+    display: none;
+    text-align: center;
+    background-color: rgb(110, 83, 9);
+    color: white;
+    font-family: Lucida Console Courier, monospace;
+}
+.pr-3{
+    display: none;
+    text-align: center;
+    background-color: rgb(110, 83, 9);
+    color: white;
+    font-family: Lucida Console Courier, monospace;
+}
 
 .icon-1{
     padding-left: 0%;
